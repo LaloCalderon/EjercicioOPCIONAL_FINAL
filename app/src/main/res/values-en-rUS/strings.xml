@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio2CM</string>
+    <string name="next">:</string>
+    <string name="arrnull">Null Array.</string>
+    <string name="badadd">Enter a numeric value.</string>
+    <string name="add">" add."</string>
+    <string name="val">"Value "</string>
+    <string name="numm">Number greater than 4 digits.</string>
+    <string name="ord">-Ordening array-</string>
+    <string name="text">This app sorts an array of numbers from least to greatest!</string>
+    <string name="ad">Add number</string>
+    <string name="ordarr">Sort Array</string>
+    <string name="larr">- Empty array-</string>
+    <string name="ingn">Enter a number</string>
+</resources>

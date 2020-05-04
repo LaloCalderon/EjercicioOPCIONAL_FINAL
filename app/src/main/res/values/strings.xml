@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ejercicio2CM</string>
+    <string name="numm">Número mayor de 4 cifras</string>
+    <string name="val">"Valor "</string>
+    <string name="add">" agregado."</string>
+    <string name="badadd">Ingresa un valor numérico.</string>
+    <string name="arrnull">Arreglo vacío.</string>
+    <string name="next">:</string>
+    <string name="ord">-Ordenando Array-</string>
+    <string name="text">¡Esta app ordena un array de números de menor a mayor!</string>
+    <string name="larr">-Limpiar Array-</string>
+    <string name="ad">Agregar Número</string>
+    <string name="ordarr">Ordenar Arreglo</string>
+    <string name="ingn">Ingresa un número</string>
+</resources>
