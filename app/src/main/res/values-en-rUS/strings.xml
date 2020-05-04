@@ -13,4 +13,5 @@
     <string name="ordarr">Sort Array</string>
     <string name="larr">- Empty array-</string>
     <string name="ingn">Enter a number</string>
+    <string name="menos">-</string>
 </resources>

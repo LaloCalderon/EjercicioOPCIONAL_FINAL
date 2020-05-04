@@ -12,4 +12,5 @@
     <string name="ad">Agregar Número</string>
     <string name="ordarr">Ordenar Arreglo</string>
     <string name="ingn">Ingresa un número</string>
+    <string name="menos">-</string>
 </resources>

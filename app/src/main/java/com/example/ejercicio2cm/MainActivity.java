@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.plus:
-
                 if(etnumber.getText().length()>=5)
                     Toast.makeText(MainActivity.this,getResources().getString(R.string.numm) , Toast.LENGTH_SHORT).show();
                 else{
@@ -54,11 +53,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             i++;
                             counter++;
                             Toast.makeText(MainActivity.this, getResources().getString(R.string.val)+counter+getResources().getString(R.string.add), Toast.LENGTH_SHORT).show();
-                            //Toast.makeText(MainActivity.this, "Valor "+counter+ " agregado", Toast.LENGTH_SHORT).show();
                             etnumber.setText("");}
                     }catch (Exception e) {
                        Toast.makeText(MainActivity.this, getResources().getString(R.string.badadd), Toast.LENGTH_SHORT).show();
-                       //Toast.makeText(MainActivity.this, "Ingresa un valor numérico", Toast.LENGTH_SHORT).show();
                    }}
                 break;
             case R.id.boton:
@@ -74,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     intent.putExtras(bundle);
                     startActivity(intent);
                 }else{
-                    Toast.makeText(MainActivity.this, getResources().getString(R.string.arrnull), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,getResources().getString(R.string.arrnull), Toast.LENGTH_SHORT).show();
                     //Toast.makeText(MainActivity.this, "Array vacío", Toast.LENGTH_SHORT).show();
                 }
                 break;
@@ -89,11 +86,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }}
     private boolean valida(int i) {
         if(i==0){
-            //Toast.makeText(MainActivity.this, "Array sin elementos", Toast.LENGTH_SHORT).show();
             return false;
         }else{
-            Toast.makeText(MainActivity.this, getResources().getString(R.string.ord), Toast.LENGTH_SHORT).show();
-            //Toast.makeText(MainActivity.this, "Ordenando array", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,getResources().getString(R.string.ord), Toast.LENGTH_SHORT).show();
             return true;
         }
     }
