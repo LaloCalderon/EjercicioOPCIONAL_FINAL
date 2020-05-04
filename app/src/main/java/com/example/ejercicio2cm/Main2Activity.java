@@ -81,7 +81,7 @@ public class Main2Activity extends AppCompatActivity {
             }
         }else{
         for (int a = 0; a < dimn; a++) {
-            Toast.makeText(Main2Activity.this, getResources().getString(R.string.val)+(a+1)+(a+1)+getResources().getString(R.string.next)+getResources().getString(R.string.menos)+arraytinv[a], Toast.LENGTH_SHORT).show();
+            Toast.makeText(Main2Activity.this, getResources().getString(R.string.val)+(a+1)+getResources().getString(R.string.next)+getResources().getString(R.string.menos)+arraytinv[a], Toast.LENGTH_SHORT).show();
             //Toast.makeText(Main2Activity.this, "Valor "+(a+1)+": -"+ arraytinv[a], Toast.LENGTH_SHORT).show();
         }
             for (int a = 0; a < dim; a++) {
